@@ -37,7 +37,7 @@ public final class ConsoleLogFile {
         }
         freopen(logPathAscii, "a+", stdout)
         print("\n\n****************************************")
-        print("****************** Start ******************")
+        print("***************** Start *****************")
         print("****************************************\n\n")
     }
     

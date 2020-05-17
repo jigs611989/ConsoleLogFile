@@ -66,9 +66,9 @@ This framwork rediect stdout to log file so that you can dump all the print logs
 
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
-
+  spec.swift_version = "5.0"
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "11"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -92,7 +92,7 @@ This framwork rediect stdout to log file so that you can dump all the print logs
   #
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files  = "ConsoleLogFile/**/*.{h,m,swift}"
+  spec.source_files  = "ConsoleLogFile/ConsoleLogFile/**/*.{h,m,swift}"
 
   spec.exclude_files = "Classes/Exclude"
 

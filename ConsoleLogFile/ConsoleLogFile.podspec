@@ -22,9 +22,9 @@ This framwork rediect stdout to log file so that you can dump all the print logs
   spec.source       = { :git => "https://github.com/jigs611989/ConsoleLogFile.git", :tag => spec.version }
 
 
-  spec.source_files  = "ConsoleLogFile/**/*.{h,m,swift}"
+  spec.source_files  = "ConsoleLogFile/ConsoleLogFile/*.{h,m,swift}"
 
-  spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "ConsoleLogFileExample"
 
 
 end

@@ -7,7 +7,7 @@
 
 ## Introduce
 
-You can easily create log file from print statement in the project without changing print or anything else.
+You can easily create a log file from the print statement in the project without changing print or anything else.
 
 ![demo](./demo.gif)
 
@@ -43,6 +43,9 @@ ConsoleLogFile.shared.shareFile(viewController: self)
 ```swift
 ConsoleLogFile.shared.createLog(fileName: "Debug", maxFileSizeInMB: 10, shouldOverrideOldFile: true)
 ```
+
+## TODO
+* Use REST API to enable/disable log file creation
 
 ## Author
 

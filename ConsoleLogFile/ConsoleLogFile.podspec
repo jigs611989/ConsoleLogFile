@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ConsoleLogFile"
-  spec.version      = "1.1"
+  spec.version      = "1.2"
   spec.summary      = "This framework will redirect console print to log file and you can easily share log file via UIActivityViewController"
 
   spec.description  = <<-DESC
@@ -12,15 +12,14 @@ This framwork rediect stdout to log file so that you can dump all the print logs
   spec.screenshots  = "https://raw.githubusercontent.com/jigs611989/ConsoleLogFile/master/demo.gif"
 
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
-
-  spec.author             = { "Jignesh" => "jigs.patelit@gmail.com" }
+  spec.license      = {type: 'MIT', file: '../LICENSE'}
+  spec.author       = { "Jignesh" => "jigs.patelit@gmail.com" }
   
-  spec.platform     = :ios, "13.0"
+  spec.platform     = :ios, "11.0"
   spec.swift_version = "5.0"
-  spec.ios.deployment_target = "13"
+  spec.ios.deployment_target = "11"
 
-  spec.source       = { :git => "https://github.com/jigs611989/ConsoleLogFile.git", :tag => "1.1" }
+  spec.source       = { :git => "https://github.com/jigs611989/ConsoleLogFile.git", :tag => spec.version }
 
 
   spec.source_files  = "ConsoleLogFile/**/*.{h,m,swift}"

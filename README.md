@@ -15,7 +15,7 @@ You can easily create a log file from the print statement in the project without
 Simply add the following line to your Podfile:
 
 ```ruby
-pod 'ConsoleLogFile', :git => 'https://github.com/jigs611989/ConsoleLogFile.git', :tag => '1.0'
+pod 'ConsoleLogFile'
 ```
 
 ## Usage
